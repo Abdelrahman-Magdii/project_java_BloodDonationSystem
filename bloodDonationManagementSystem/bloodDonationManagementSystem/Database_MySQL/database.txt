@@ -1,0 +1,9 @@
+#CREATE DATABASE blood_donation_system;
+#CREATE TABLE donor(donor_id INT PRIMARY KEY AUTO_INCREMENT, full_name VARCHAR(50), age INT, gender VARCHAR(10), phone_number VARCHAR(20), ssn VARCHAR(30) , email_address VARCHAR(50), address VARCHAR(100), epc VARCHAR(20), blood_group varchar(5));
+#select *from login ;
+#CREATE TABLE patient(patient_id INT PRIMARY KEY AUTO_INCREMENT, full_name VARCHAR(50), age INT, gender VARCHAR(10), phone_number VARCHAR(20), ssn VARCHAR(30), email_address VARCHAR(50), address VARCHAR(100), epc VARCHAR(20), blood_group varchar(5), req_blood INT);
+#CREATE TABLE employee(num INT PRIMARY KEY AUTO_INCREMENT, id_number VARCHAR(20));
+#CREATE TABLE login(num INT PRIMARY KEY AUTO_INCREMENT, full_name VARCHAR(20), id_number VARCHAR(20), email_address VARCHAR(50), username VARCHAR(50), pass VARCHAR(1000));
+#insert INTO employee (ID_number) VALUE (123456789);
+
+#CREATE TABLE stock(num INT PRIMARY KEY AUTO_INCREMENT, blood_group VARCHAR(5), bags INT)
